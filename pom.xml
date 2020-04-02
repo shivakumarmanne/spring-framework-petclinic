@@ -542,6 +542,16 @@
             <name>Spring GA Repository</name>
             <url>https://repo.spring.io/plugins-release/</url>
         </repository>
-    </repositories>
+        <repository>
+            <id>shivakumarzurich2019</id>
+            <url>https://pkgs.dev.azure.com/shivakumarzurich2019/_packaging/shivakumarzurich2019/maven/v1</url>
+            <releases>
+            <enabled>true</enabled>
+        </releases>
+        <snapshots>
+          <enabled>true</enabled>
+        </snapshots>
+     </repository>
+   </repositories>
 
 </project>
