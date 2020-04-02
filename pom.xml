@@ -543,26 +543,26 @@
             <url>https://repo.spring.io/plugins-release/</url>
         </repository>
         <repository>
-            <id>shivakumarzurich2019</id>
-            <url>https://pkgs.dev.azure.com/shivakumarzurich2019/_packaging/shivakumarzurich2019/maven/v1</url>
-            <releases>
-            <enabled>true</enabled>
-        </releases>
-        <snapshots>
-          <enabled>true</enabled>
-        </snapshots>
-     </repository>
+  <id>Shiva_Artifactory</id>
+  <url>https://pkgs.dev.azure.com/shivakumarzurich2019/Java-Project/_packaging/Shiva_Artifactory/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
    </repositories>
  <distributionManagement>
-   <repository>
-     <id>shivakumarzurich2019</id>
-     <url>https://pkgs.dev.azure.com/shivakumarzurich2019/_packaging/shivakumarzurich2019/maven/v1</url>
-    <releases>
-       <enabled>true</enabled>
-    </releases>
-    <snapshots>
-      <enabled>true</enabled>
-    </snapshots>
-   </repository>  
+<repository>
+  <id>Shiva_Artifactory</id>
+  <url>https://pkgs.dev.azure.com/shivakumarzurich2019/Java-Project/_packaging/Shiva_Artifactory/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository> 
  </distributionManagement>    
 </project>
